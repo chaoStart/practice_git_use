@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import logo from '../../assets/image/logo.png'
 import './login.less'
 // const Item = Form.Item
-/*
+/*看看能不能pull过去
 登陆路由组件
 */
 class Login extends Component {
