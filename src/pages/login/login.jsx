@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Form, Input, Icon, Button, } from 'antd'
+// import { Form, Input, Icon, Button, } from 'antd'
 import logo from '../../assets/image/logo.png'
 import './login.less'
-const Item = Form.Item
+// const Item = Form.Item
 /*
 登陆路由组件
 */
@@ -16,7 +16,7 @@ class Login extends Component {
                 </header>
                 <section className='login-content'>
                     <h3>用户登陆</h3>
-                    <Form onSubmit={this.login} className="login-form">
+                    {/* <Form onSubmit={this.login} className="login-form">
                         <Item>
                             <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
                                 placeholder=" 用户名" />
@@ -30,7 +30,7 @@ class Login extends Component {
                                 登录
                             </Button>
                         </Item>
-                    </Form>
+                    </Form> */}
                 </section>
             </div>
         )
