@@ -1,0 +1,574 @@
+.content-left-layout {
+  width: 100%;
+  // height: 219px;
+  // background-image: url("./assets/img/外框448_219@2x.png");
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .middleTitle {
+    // width: 130px;
+    height: 22%;
+    width: 100%;
+    // position: absolute;
+    // top: 4px;
+    // left: 60px;
+    font-family: YouSheBiaoTiHei;
+    font-size: 24px;
+    color: #47ccff;
+    letter-spacing: 0;
+    text-shadow: 0 0 2px rgba(0, 18, 38, 0.79);
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .emptyIcon {
+      width: 60px;
+      height: 100%;
+    }
+    .rest1 {
+      width: 35%;
+      height: 90%;
+    }
+    .rest {
+      height: 90%;
+      flex: 1;
+      // background-color: brown;
+    }
+  }
+  #item {
+    width: 100%;
+    height: calc(100% - 51px);
+    // margin-top: 38px;
+    // margin-bottom: 13px;
+  }
+}
+.alarm-layout {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  .alarmImg {
+    width: 70.48px;
+    height: 80.31px;
+    // background-image: url("./assets/img/icon-全场监测点数@2x.png");
+    background-size: 100% 100%;
+    // margin-bottom: 25px;
+  }
+  .alarmtitle {
+    width: 116px;
+    height: 22px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 400;
+    position: absolute;
+    top: 80.82px;
+    left: 14.15px;
+    margin-bottom: 25px;
+  }
+  .alarmNumber {
+    width: 67.92px;
+    height: 30px;
+    font-family: Helvetica;
+    font-size: 24.8px;
+    // color: #0bc8ff;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 105.82px;
+    left: 30.15px;
+  }
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/img/background.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .title {
+    width: 100%;
+    height: 100px;
+    background-image: url("./assets/img/标题框@2x.png");
+    background-size: 100% 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .theme {
+      width: 720px;
+      height: 40px;
+      font-family: YouSheBiaoTiHei;
+      font-size: 25px;
+      // color: rgba(242, 252195, 14);
+      color: white;
+      letter-spacing: 5px;
+      // text-align: center;
+      text-shadow: 0 2px 21px rgba(20, 178, 255, 0.5);
+      font-weight: 400;
+    }
+    .platformTitle {
+      width: 500px;
+      height: 40px;
+      // background-color: brown;
+      font-family: YouSheBiaoTiHei;
+      font-size: 40px;
+      color: #47ccff;
+      letter-spacing: 5px;
+      // text-align: center;
+      text-shadow: 0 2px 21px rgba(20, 178, 255, 0.5);
+      font-weight: 400;
+    }
+    .team {
+      width: 500px;
+      height: 40px;
+      // background-color: brown;
+      font-family: YouSheBiaoTiHei;
+      font-size: 40px;
+      color: #47ccff;
+      letter-spacing: 5px;
+      // text-align: center;
+      text-shadow: 0 2px 21px rgba(20, 178, 255, 0.5);
+      font-weight: 400;
+    }
+    // span {
+    //   width: 500px;
+    //   height: 40px;
+    //   font-family: YouSheBiaoTiHei;
+    //   font-size: 40px;
+    //   color: #47ccff;
+    //   letter-spacing: 5px;
+    //   text-align: center;
+    //   text-shadow: 0 2px 21px rgba(20, 178, 255, 0.5);
+    //   font-weight: 400;
+    // }
+  }
+  .content {
+    width: 100%;
+    height: calc(100% - 116px);
+    padding: 0px 28px 28px;
+    padding-right: 28px;
+    display: flex;
+    .content-left {
+      width: 448px;
+      height: 100%;
+      margin-right: 24px;
+      // background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .otherApp {
+        .content-left-layout();
+        // height: 219px;
+        height: 25%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        margin-bottom: 20px;
+      }
+      .Apccontent {
+        .content-left-layout();
+        // height: 219px;
+        height: 25%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        margin-bottom: 20px;
+      }
+      .alarm {
+        height: 22.7%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        background-size: 100% 100%;
+        .content-left-layout();
+        margin-bottom: 31px;
+        #item {
+          display: flex;
+          justify-content: space-around;
+          .alarmContent1 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-全场监测点数@2x.png");
+            }
+            .alarmNumber {
+              color: #0bc8ff;
+            }
+          }
+          .alarmContent2 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-实时报警@2x.png");
+            }
+            .alarmNumber {
+              color: #ffbd00;
+            }
+          }
+          .alarmContent3 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-24报警数@2x.png");
+            }
+            .alarmNumber {
+              color: #33f3df;
+            }
+          }
+        }
+      }
+      .enengy {
+        .content-left-layout();
+        height: 25%;
+        // height: 219px;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        margin-bottom: 20px;
+      }
+      .energycontent {
+        height: 25%;
+        // height: 219px;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        .content-left-layout();
+      }
+    }
+    .content-middle {
+      width: 928px;
+      height: 100%;
+      margin-right: 24px;
+      // background-color: brown;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .productionStatistics {
+        width: 100%;
+        height: 130px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+        .productionToday {
+          width: 293px;
+          height: 100%;
+          margin-right: 31.46px;
+          background-image: url("./assets/img/bg-数据外框@2x.png");
+          background-size: 100% 100%;
+          position: relative;
+          .number {
+            width: 97.32px;
+            height: 47px;
+            position: absolute;
+            top: 29px;
+            left: 98.36px;
+            font-family: DINAlternate-Bold;
+            font-size: 40px;
+            color: #00ffff;
+            text-align: center;
+            text-shadow: 0 0 11px #59ceff;
+            font-weight: 700;
+          }
+          .productionTitle {
+            width: 75.34px;
+            height: 25px;
+            position: absolute;
+            left: 108.83px;
+            top: 77px;
+            font-family: PingFangSC-Semibold;
+            font-size: 18px;
+            color: #39d3ff;
+            letter-spacing: 0;
+            text-align: center;
+            text-shadow: 0 0 10px #004bff;
+            font-weight: 600;
+          }
+        }
+        .productionMonth {
+          width: 293px;
+          height: 100%;
+          margin-right: 31.46px;
+          background-image: url("./assets/img/bg-数据外框@2x.png");
+          background-size: 100% 100%;
+          position: relative;
+          .number {
+            width: 97.32px;
+            height: 47px;
+            position: absolute;
+            top: 29px;
+            left: 98.36px;
+            font-family: DINAlternate-Bold;
+            font-size: 40px;
+            color: #00ffff;
+            text-align: center;
+            text-shadow: 0 0 11px #59ceff;
+            font-weight: 700;
+          }
+          .productionTitle {
+            width: 75.34px;
+            height: 25px;
+            position: absolute;
+            left: 108.83px;
+            top: 77px;
+            font-family: PingFangSC-Semibold;
+            font-size: 18px;
+            color: #39d3ff;
+            letter-spacing: 0;
+            text-align: center;
+            text-shadow: 0 0 10px #004bff;
+            font-weight: 600;
+          }
+        }
+        .productionYear {
+          flex: 1;
+          background-image: url("./assets/img/bg-数据外框@2x.png");
+          background-size: 100% 100%;
+          position: relative;
+          .number {
+            width: 97.32px;
+            height: 47px;
+            position: absolute;
+            top: 29px;
+            left: 98.36px;
+            font-family: DINAlternate-Bold;
+            font-size: 40px;
+            color: #00ffff;
+            text-align: center;
+            text-shadow: 0 0 11px #59ceff;
+            font-weight: 700;
+          }
+          .productionTitle {
+            width: 75.34px;
+            height: 25px;
+            position: absolute;
+            left: 108.83px;
+            top: 77px;
+            font-family: PingFangSC-Semibold;
+            font-size: 18px;
+            color: #39d3ff;
+            letter-spacing: 0;
+            text-align: center;
+            text-shadow: 0 0 10px #004bff;
+            font-weight: 600;
+          }
+        }
+      }
+      .flowChart {
+        width: 100%;
+        // height: 547px;
+        height: 56.74%;
+        margin-bottom: 20px;
+        background-image: url("./assets/img/外框928_547@2x.png");
+        background-size: contain;
+        // .content-left-layout();
+        width: 100%;
+        // height: 219px;
+        // background-image: url("./assets/img/外框448_219@2x.png");
+        background-size: 100% 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .middleTitle {
+          // width: 130px;
+          height: 8%;
+          width: 100%;
+          // position: absolute;
+          // top: 4px;
+          // left: 60px;
+          font-family: YouSheBiaoTiHei;
+          font-size: 24px;
+          color: #47ccff;
+          letter-spacing: 0;
+          text-shadow: 0 0 2px rgba(0, 18, 38, 0.79);
+          font-weight: 400;
+          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          .emptyIcon {
+            width: 60px;
+            height: 100%;
+          }
+        }
+        #item {
+          width: 100%;
+          height: calc(100% - 51px);
+          // margin-top: 38px;
+          // margin-bottom: 13px;
+        }
+      }
+      #yield {
+        flex: 1;
+        // background-color: aqua;
+        .content-left-layout();
+        background-image: url("./assets/img/外框928_219@2x.png");
+        background-size: 100% 100%;
+      }
+    }
+    .content-right {
+      width: 448px;
+      height: 100%;
+      // background-color: rgb(44, 42, 165);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .troubleForm {
+        width: 100%;
+        // height: 219px;
+        height: 25%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        background-size: 100% 100%;
+        .content-left-layout();
+        margin-bottom: 21px;
+      }
+      .safeGeneration {
+        // height: 180px;
+        height: 18.7%;
+        background-image: url("./assets/img/外框448_180@2x.png");
+        background-size: 100% 100%;
+        .content-left-layout();
+        margin-bottom: 31px;
+        position: relative;
+        .safeGenerationContent {
+          width: 100%;
+          // height: calc(100% -18.7%);
+          height: 81.3%;
+          position: relative;
+          .safeImg {
+            width: 150px;
+            // height: 152px;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 20px;
+            background-image: url("./assets/img/icon-运行天数@2x.png");
+            background-size: 100% 100%;
+          }
+          .picture1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 49px;
+            height: 79px;
+            position: absolute;
+            background-image: url("./assets/img/bg-天数卡片@2x.png");
+            background-size: 100% 100%;
+            top: 19px;
+            left: 179px;
+            font-family: DINAlternate-Bold;
+            font-size: 50.53px;
+            color: #4bf3f9;
+            font-weight: 700;
+          }
+          .picture2 {
+            width: 49px;
+            height: 79px;
+            position: absolute;
+            background-image: url("./assets/img/bg-天数卡片@2x.png");
+            background-size: 100% 100%;
+            top: 19px;
+            left: 235.48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: DINAlternate-Bold;
+            font-size: 50.53px;
+            color: #4bf3f9;
+            font-weight: 700;
+          }
+          .picture3 {
+            width: 49px;
+            height: 79px;
+            position: absolute;
+            background-image: url("./assets/img/bg-天数卡片@2x.png");
+            background-size: 100% 100%;
+            top: 19px;
+            left: 291.96px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: DINAlternate-Bold;
+            font-size: 50.53px;
+            color: #4bf3f9;
+            font-weight: 700;
+          }
+          .picture4 {
+            width: 49px;
+            height: 79px;
+            position: absolute;
+            background-image: url("./assets/img/bg-天数卡片@2x.png");
+            background-size: 100% 100%;
+            top: 19px;
+            left: 348.44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: DINAlternate-Bold;
+            font-size: 50.53px;
+            color: #4bf3f9;
+            font-weight: 700;
+          }
+          .tian {
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            font-family: SourceHanSansCN-Medium;
+            font-size: 18px;
+            color: #919aaf;
+            font-weight: 500;
+            top: 84.5px;
+            left: 405.4px;
+          }
+        }
+      }
+      .Apccontent {
+        .content-left-layout();
+        // height: 219px;
+        height: 25%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        margin-bottom: 20px;
+      }
+      .alarm {
+        height: 22.7%;
+        background-image: url("./assets/img/外框448_219@2x.png");
+        background-size: 100% 100%;
+        .content-left-layout();
+        margin-bottom: 31px;
+        #item {
+          display: flex;
+          justify-content: space-around;
+          .alarmContent1 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-全场监测点数@2x.png");
+            }
+            .alarmNumber {
+              color: #0bc8ff;
+            }
+          }
+          .alarmContent2 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-实时报警@2x.png");
+            }
+            .alarmNumber {
+              color: #ffbd00;
+            }
+          }
+          .alarmContent3 {
+            .alarm-layout();
+            .alarmImg {
+              background-image: url("./assets/img/icon-24报警数@2x.png");
+            }
+            .alarmNumber {
+              color: #33f3df;
+            }
+          }
+        }
+      }
+      .PIDcontent {
+        flex: 1;
+        background-image: url("./assets/img/外框448_258@2x.png");
+        background-size: 100% 100%;
+        .content-left-layout();
+      }
+    }
+  }
+}

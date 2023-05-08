@@ -1,0 +1,143 @@
+.process {
+  width: 75%;
+  height: 75%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.process .process0 {
+  width: 300px;
+  height: 100%;
+  margin-right: 31.46px;
+  position: relative;
+}
+.process .process0 .processTitle {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  left: 108.83px;
+  top: 5px;
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  color: #39d3ff;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: 0 0 10px #004bff;
+  font-weight: 600;
+  border-left: 5px solid #33f8cd;
+  padding-left: 10px;
+}
+.process .process0 .processImg {
+  width: 250px;
+  height: 230px;
+  position: absolute;
+  top: 50px;
+  left: 98.36px;
+  background-image: url("assets/img/加工实物图.png");
+}
+.process .process1 {
+  width: 293px;
+  height: 100%;
+  margin-right: 31.46px;
+  position: relative;
+}
+.process .process1 .processTitle {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  left: 108.83px;
+  top: 5px;
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  color: #39d3ff;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: 0 0 10px #004bff;
+  font-weight: 600;
+  border-left: 5px solid #1689ce;
+  padding-left: 10px;
+}
+.process .process1 .processText0 {
+  width: auto;
+  height: 47px;
+  position: absolute;
+  top: 50px;
+  left: 98.36px;
+  font-family: DINAlternate-Bold;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 11px #59ceff;
+  font-weight: 700;
+}
+.process .process1 .processText1 {
+  width: auto;
+  height: 47px;
+  position: absolute;
+  top: 80px;
+  left: 98.36px;
+  font-family: DINAlternate-Bold;
+  font-size: 25px;
+  color: #39d3ff;
+  text-align: center;
+  text-shadow: 0 0 11px #59ceff;
+  font-weight: 700;
+}
+.process .process2 {
+  flex: 1;
+  position: relative;
+}
+.process .process2 .processTitle {
+  width: auto;
+  height: 25px;
+  position: absolute;
+  left: 108.83px;
+  top: 5px;
+  font-family: PingFangSC-Semibold;
+  font-size: 18px;
+  color: #39d3ff;
+  letter-spacing: 0;
+  text-align: center;
+  text-shadow: 0 0 10px #004bff;
+  font-weight: 600;
+  border-left: 5px solid #8d273f;
+  padding-left: 10px;
+}
+.process .process2 .processTop {
+  width: 100%;
+  height: 47px;
+  position: absolute;
+  top: 35px;
+  left: 98.36px;
+  font-family: DINAlternate-Bold;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 11px #59ceff;
+  font-weight: 700;
+}
+.process .process2 td {
+  width: 100px;
+}
+.process .process2 .tr1 {
+  color: #39d3ff;
+}
+.process .process2 .tableList0 {
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  color: white;
+  text-align: center;
+}
+.process .process2 .tableList1 {
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  left: 100px;
+  color: white;
+  text-align: center;
+}
+.process .process2 .tableList1 td {
+  border: 2px solid #39d3ff;
+}

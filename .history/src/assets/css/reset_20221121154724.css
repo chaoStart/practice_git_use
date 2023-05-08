@@ -1,0 +1,111 @@
+@import "normalize.css";
+/* @import "./common.less"; */
+
+.rest .ant-select-selection {
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background-color: #142436;
+  border-radius: 10px;
+  border: 0.5px solid #00898b;
+  /* border-top-width: 1.02px; */
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* 用来设置select下拉框的高度 */
+.rest
+  .ant-select-single.ant-select-lg:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 2.5rem;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  position: relative;
+  /* background-color: #0909db; */
+  background-color: transparent;
+  border: 0.0625rem solid #00898b;
+  border-radius: 0.125rem;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.rest
+  .ant-select-selection--multiple
+  .ant-select-selection__rendered
+  .ant-select-selection__choice {
+  background-color: #fff;
+  color: black;
+  border-radius: 3px;
+}
+
+.rest .ant-select {
+  font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 20px;
+  text-align: center;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  outline: 0;
+}
+.yierchunflowChart {
+  border: 1px solid white;
+}
+
+/* 未被选中的标签头的样式 */
+.ant-tabs-tab {
+  padding: 0 0;
+  color: #00ccff;
+  font-size: 18px;
+}
+
+/* 被选中的标签头的样式 */
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #00898b;
+  /* text-shadow: 0 0 0.01563rem currentcolor; */
+  font-size: 18px;
+}
+
+/* 标签头和底部标签页内容的间距调整 */
+.ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0 0 6px 0;
+}
+
+/* tabs底部的白线不显示 */
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border-bottom: 0.0625rem solid transparent;
+  content: "";
+}
+
+/* 让底部标签页的内容占据全部，不要自动，主要是保证echrts图表的展示 */
+.ant-tabs.ant-tabs-top.tabscontent {
+  width: 100%;
+  height: 100%;
+}
+.ant-tabs-content.ant-tabs-content-top {
+  width: 100%;
+  height: 100%;
+}
